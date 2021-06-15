@@ -1,0 +1,48 @@
+@import "_background.css";
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import "_typography.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  color: $prm-font-color;
+  font-size: $prm-font-size;
+  font-family: $prm-font;
+  text-align: center;
+
+  .content__h6 {
+    font-size: 40%;
+    font-family: $sec-font;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .content__h1 {
+    margin-top: 5%;
+  }
+
+  .content__p {
+    font-family: $sec-font;
+    margin-top: 5%;
+  }
+
+  .content__nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10%;
+    text-decoration: underline;
+  }
+
+  .nav__about:hover,
+  .nav__project:hover,
+  .nav__contact:hover {
+    border: 4px double $prm-font-color;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+  }
+}

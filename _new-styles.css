@@ -1,6 +1,5 @@
 @import "_background.css";
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
-@import "_typography.scss";
 
 * {
   box-sizing: border-box;
@@ -8,55 +7,35 @@
   margin: 0;
 }
 
-body {
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  background-color: #4e4d4d;
-  background-repeat: no-repeat;
-  background-size: 25% 25%;
-  background-position: center -20%, center 120%;
-  overflow: hidden;
-  z-index: 1;
-}
-
-section {
+.content {
   color: white;
   font-size: 6vmin;
   font-family: "Limelight", cursive;
-}
-
-.content {
   text-align: center;
 }
-
-.content__h6 {
+.content .content__h6 {
   font-size: 40%;
   font-family: "Poiret One", cursive;
   text-decoration: underline;
   text-align: center;
   margin-top: 10%;
 }
-
-.content__h1 {
+.content .content__h1 {
   margin-top: 5%;
 }
-
-p {
+.content .content__p {
   font-family: "Poiret One", cursive;
   margin-top: 5%;
 }
-
-.content__nav {
+.content .content__nav {
   display: flex;
   justify-content: space-evenly;
   margin: 10%;
   text-decoration: underline;
 }
-
-.nav__about:hover,
-.nav__project:hover,
-.nav__contact:hover {
+.content .nav__about:hover,
+.content .nav__project:hover,
+.content .nav__contact:hover {
   border: 4px double white;
   cursor: pointer;
   transition: 0.2s ease-in;
