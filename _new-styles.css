@@ -100,3 +100,14 @@
   height: 25vh;
   width: 85vw;
 }
+
+.projects {
+  color: white;
+  font-size: 5vmin;
+  font-family: "Limelight", cursive;
+  text-align: center;
+}
+.projects .projects__box {
+  text-decoration: underline;
+  margin-top: 5%;
+}

@@ -1,14 +1,12 @@
 @import "_typography.scss";
 
 body {
-  height: 100%;
   position: absolute;
   width: 100%;
   background-color: $prm-back-color;
   background-repeat: no-repeat;
   background-size: 25% 25%;
   background-position: center -20%, center 120%;
-  overflow: hidden;
   z-index: 1;
 }
 

@@ -117,3 +117,15 @@
     width: 85vw;
   }
 }
+
+.projects {
+  color: $prm-font-color;
+  font-size: $prm-font-size;
+  font-family: $prm-font;
+  text-align: center;
+
+  .projects__box {
+    text-decoration: underline;
+    margin-top: 5%;
+  }
+}
