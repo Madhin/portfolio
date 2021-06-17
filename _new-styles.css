@@ -11,16 +11,17 @@
   font-size: 5vmin;
   font-family: "Limelight", cursive;
   text-align: center;
+  border: 2px solid white;
 }
 .home .home__h6 {
-  font-size: 40%;
+  font-size: 50%;
   font-family: "Poiret One", cursive;
   text-decoration: underline;
   text-align: center;
-  margin: 10% 0 0 0;
+  margin: 5% 0 0 0;
 }
 .home .home__h1 {
-  margin-top: 10%;
+  margin-top: 7%;
 }
 .home .home__h3 {
   display: flex;
@@ -35,13 +36,11 @@
 .home .home__nav {
   margin: 15% 10%;
   text-decoration: underline;
+  height: 20vh;
 }
 .home .nav__items {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  display: flex;
-  height: 20vh;
+  justify-content: space-evenly;
 }
 .home .nav__about:hover,
 .home .nav__project:hover,
@@ -49,7 +48,7 @@
   border: 4px double white;
   cursor: pointer;
   transition: 0.2s ease-in;
-  padding: 5px;
+  padding: 3px;
 }
 
 .about {
@@ -107,7 +106,19 @@
   font-family: "Limelight", cursive;
   text-align: center;
 }
-.projects .projects__box {
+.projects .projects__h1 {
+  margin-top: 3%;
   text-decoration: underline;
-  margin-top: 5%;
+}
+.projects .projects__box {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.projects .projects__box h3 {
+  background-color: black;
+  font-size: 3vmin;
+  height: 35vh;
+  width: 60vw;
+  text-decoration: none;
 }

@@ -1,9 +1,9 @@
 @import "_typography.scss";
 
 body {
-  position: absolute;
-  width: 100%;
   background-color: $prm-back-color;
+  /*position: absolute;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: 25% 25%;
   background-position: center -20%, center 120%;
@@ -121,6 +121,7 @@ body {
     transform: translateX(1400px);
   }
 }
+
 @-webkit-keyframes movingstripe {
   0% {
     -webkit-transform: translateX(0px);
