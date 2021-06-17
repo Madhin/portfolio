@@ -2,12 +2,18 @@
 
 body {
   background-color: $prm-back-color;
-  /*position: absolute;
+  position: absolute;
   width: 100%;
-  background-repeat: no-repeat;
   background-size: 25% 25%;
   background-position: center -20%, center 120%;
   z-index: 1;
+  height: 100%;
+}
+
+@media (min-height: 500px) and (min-width: 580px) {
+  .home__page {
+    height: 100%;
+  }
 }
 
 @keyframes jumpy {
