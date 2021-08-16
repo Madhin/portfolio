@@ -259,15 +259,15 @@ body:after {
   font-family: "Poiret One", Arial, Helvetica, cursive;
   text-decoration: underline;
   text-align: center;
-  margin: 20% 0 0 0;
+  margin: 5% 0 0 0;
 }
 .home .home__h1 {
-  margin: 10% 0 0 0;
+  margin: 5% 0 0 0;
 }
 .home .home__h3 {
   display: flex;
   justify-content: center;
-  margin: 20% 0 0 0;
+  margin: 10% 0 0 0;
   font-family: "Poiret One", Arial, Helvetica, cursive;
 }
 .home .home__h3 h3 {
@@ -275,7 +275,7 @@ body:after {
   padding: 5px;
 }
 .home .home__nav {
-  margin: 25% 0 0 0;
+  margin: 10% 0 0 0;
   text-decoration: underline;
   height: 20vh;
 }
@@ -316,7 +316,7 @@ body:after {
   background-color: black;
   font-size: 3vmin;
   height: 20vh;
-  width: 25vw;
+  width: 15vw;
 }
 .about .about__desc {
   font-family: "Poiret One", Arial, Helvetica, cursive;

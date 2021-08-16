@@ -19,17 +19,17 @@
     font-family: $sec-font;
     text-decoration: underline;
     text-align: center;
-    margin: 20% 0 0 0;
+    margin: 5% 0 0 0;
   }
 
   .home__h1 {
-    margin: 10% 0 0 0;
+    margin: 5% 0 0 0;
   }
 
   .home__h3 {
     display: flex;
     justify-content: center;
-    margin: 20% 0 0 0;
+    margin: 10% 0 0 0;
     font-family: $sec-font;
   }
 
@@ -39,7 +39,7 @@
   }
 
   .home__nav {
-    margin: 25% 0 0 0;
+    margin: 10% 0 0 0;
     text-decoration: underline;
     height: 20vh;
   }
@@ -86,7 +86,7 @@
     background-color: black;
     font-size: $sec-font-size;
     height: 20vh;
-    width: 25vw;
+    width: 15vw;
   }
 
   .about__desc {
