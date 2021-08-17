@@ -299,84 +299,103 @@ body:after {
   padding: 3px;
 }
 
-.about {
+#about {
   color: #fff;
   font-size: 5vmin;
   font-family: "Limelight", Arial, Helvetica, cursive;
   text-align: center;
 }
-.about .fa {
+#about .fa {
   margin: 0 10%;
 }
-.about .about__h1 {
+#about .about__h1 {
   text-decoration: underline;
-  margin-top: 2%;
 }
-.about .about__img {
+#about .about__img {
   margin: 3%;
   display: flex;
   justify-content: center;
+  height: 35vh;
 }
-.about .about__img h3 {
+#about .about__img h3 {
   background-color: black;
   font-size: 3vmin;
   height: 20vh;
   width: 15vw;
 }
-.about .about__desc {
+#about .about__desc {
   font-family: "Poiret One", Arial, Helvetica, cursive;
   font-size: 3vmin;
   display: flex;
   justify-content: center;
   margin: 2% 2%;
 }
-.about .about__desc p {
-  border: 2px dotted white;
+#about .about__desc p {
+  border: 6px double white;
   width: 60vw;
   padding: 15px;
 }
-.about .about__skills {
+#about .about__skills {
   text-decoration: underline;
   margin: 4% 2%;
 }
-.about .about__icons {
-  margin: 2%;
+#about .about__flex {
   display: flex;
   justify-content: center;
 }
-.about .about__icons h3 {
-  background-color: black;
+#about .about__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poiret One", Arial, Helvetica, cursive;
+  border: 6px double white;
+  height: 40vh;
+  width: 60vw;
+  padding: 0% 2%;
+}
+#about .about__icons p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-size: 3vmin;
+  font-family: "Poiret One", Arial, Helvetica, cursive;
   height: 30vh;
   width: 65vw;
 }
 
-.projects {
+#projects {
   color: #fff;
   font-size: 5vmin;
   font-family: "Limelight", Arial, Helvetica, cursive;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.projects .af {
+#projects .af {
   margin: 0 10%;
 }
-.projects .projects__h1 {
-  margin-top: 8%;
+#projects .projects__h1 {
+  margin-top: 5%;
   text-decoration: underline;
 }
-.projects .projects__box {
+#projects .projects__box {
   display: flex;
   justify-content: center;
-  margin-top: 10%;
+  flex-direction: column;
+  margin-top: 5%;
+  border: 6px double white;
 }
-.projects .projects__box h3 {
-  background-color: black;
+#projects .projects__box h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   font-size: 3vmin;
-  height: 35vh;
-  width: 60vw;
+  height: 15vh;
+  width: 70vw;
   text-decoration: none;
 }
-.projects .projects__icons {
+#projects .projects__icons {
   margin-top: 3%;
 }
 
@@ -399,7 +418,7 @@ body:after {
   width: 50vw;
 }
 #contact .contact__cv {
-  margin-top: 5%;
+  margin-bottom: 7%;
 }
 #contact .contact__cv a {
   color: #fff;
