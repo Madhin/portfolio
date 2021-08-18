@@ -212,12 +212,11 @@ body:before {
   -webkit-box-shadow: 0 0 10px rgba(85, 85, 85, 0.5);
   box-shadow: 0 0 10px rgba(85, 85, 85, 0.5);
   content: "";
-  height: 100%;
+  height: 2500px;
   left: -300px;
   padding: 2px;
   position: absolute;
   width: 500px;
-  width: 500vm;
   width: 50vmin;
   z-index: 2;
 }
@@ -254,7 +253,7 @@ body:after {
   font-size: 5vmin;
   font-family: "Limelight", Arial, Helvetica, cursive;
   text-align: center;
-  height: 100%;
+  height: 100vh;
 }
 .home .home__h6 {
   font-size: 50%;
@@ -301,7 +300,7 @@ body:after {
 
 #about {
   color: #fff;
-  font-size: 5vmin;
+  font-size: 3vmin;
   font-family: "Limelight", Arial, Helvetica, cursive;
   text-align: center;
 }
@@ -320,8 +319,8 @@ body:after {
 #about .about__img h3 {
   background-color: black;
   font-size: 3vmin;
-  height: 20vh;
-  width: 15vw;
+  height: 10vh;
+  width: 10vw;
 }
 #about .about__desc {
   font-family: "Poiret One", Arial, Helvetica, cursive;
@@ -365,7 +364,7 @@ body:after {
 
 #projects {
   color: #fff;
-  font-size: 5vmin;
+  font-size: 3vmin;
   font-family: "Limelight", Arial, Helvetica, cursive;
   text-align: center;
   display: flex;
@@ -401,7 +400,7 @@ body:after {
 
 #contact {
   color: #fff;
-  font-size: 5vmin;
+  font-size: 3vmin;
   font-family: "Limelight", Arial, Helvetica, cursive;
   display: flex;
   flex-direction: column;
