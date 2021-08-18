@@ -180,6 +180,17 @@
     font-size: 40px;
   }
 
+  .carousel-item{
+    display: flex;
+    justify-content: center;
+  }
+
+  #calcImage{
+    margin-top: 5%;
+    height:50%;
+    max-width: 20%;
+  }
+
   .projects__box h3 {
     display: flex;
     flex-direction: column;
