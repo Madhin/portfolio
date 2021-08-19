@@ -81,6 +81,7 @@
 
   .about__h1 {
     text-decoration: underline;
+    margin-top: 7%;
 
   }
 
@@ -124,14 +125,10 @@
   
 
   .about__icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: $sec-font;
-    border: 6px double white;
-    height: 40vh;
-    width: 60vw;
-    padding:0% 2%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-family: "Poiret One", Arial, Helvetica, cursive;
+    justify-items: center;
   }
 
   .about__icons p {
@@ -140,8 +137,10 @@
     justify-content: center;
     font-size: $sec-font-size;
     font-family: $sec-font;
-    height: 30vh;
-    width: 65vw;
+    // height: 10vh;
+     width: 10vw;
+     padding:20%;
+    //  margin:10%;
   }
 }
 
