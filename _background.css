@@ -219,7 +219,12 @@ body:before {
   z-index: 2;
 }
 
-@media only screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
+  body:before {
+    height: 2500px;
+  }
+}
+@media screen and (max-width: 1440px) {
   body:before {
     height: 2500px;
   }

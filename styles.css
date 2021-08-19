@@ -221,7 +221,12 @@ body:before {
   z-index: 2;
 }
 
-@media only screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
+  body:before {
+    height: 2500px;
+  }
+}
+@media screen and (max-width: 1440px) {
   body:before {
     height: 2500px;
   }
@@ -251,6 +256,7 @@ body:before {
 }
 .home .home__h1 {
   margin: 5% 0 0 0;
+  font-size: larger;
 }
 .home .home__h3 {
   display: flex;
@@ -363,22 +369,32 @@ body:before {
   flex-direction: column;
   margin-top: 5%;
   border: 6px double white;
-  height: 60vh;
+  height: 70vh;
   width: 60vw;
 }
 #projects #carouselExampleCaptions {
   height: 60vh;
   width: 60vw;
 }
-#projects .firstSlide {
+#projects #project__content {
   color: white;
-  font-size: 40px;
+  font-size: 55%;
+  font-family: "Poiret One", Arial, Helvetica, cursive;
+}
+#projects .project__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#projects .project__links p {
+  margin: 0 2%;
+  font-family: "Limelight", Arial, Helvetica, cursive;
 }
 #projects .carousel-item {
   display: flex;
   justify-content: center;
 }
-#projects #calcImage {
+#projects #project__image {
   margin-top: 5%;
   height: 50%;
   max-width: 20%;
@@ -435,7 +451,7 @@ body:before {
   padding: 3px;
 }
 
-@media only screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
   .nav__items {
     margin-top: 10%;
   }
@@ -452,5 +468,41 @@ body:before {
 
   .about__desc p {
     width: 70vw;
+  }
+
+  .about__icons p {
+    width: 20vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .home__h6 {
+    margin-bottom: 10%;
+  }
+
+  .home__h3 h3 {
+    margin-top: 8%;
+  }
+
+  .nav__items {
+    margin-top: 15%;
+  }
+
+  .about__h1 h1 {
+    margin-top: 15%;
+    text-decoration: underline;
+    margin-bottom: 5%;
+  }
+
+  .about__img img {
+    margin-bottom: 5%;
+    height: 25vh;
+  }
+
+  .about__desc p {
+    width: 70vw;
+  }
+
+  .about__icons p {
+    width: 20vw;
   }
 }
