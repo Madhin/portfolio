@@ -164,10 +164,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 5%;
+    align-items: center;
+    // margin-top: 5%;
     border: 6px double white;
-    height:70vh;
-    width:60vw;
+    height:70%;
+    width:60%;
   }
 
   #carouselExampleCaptions{
@@ -192,15 +193,31 @@
     font-family: $prm-font;
   }
 
-  .carousel-item{
+  .container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 
   #project__image{
     margin-top: 5%;
-    height:50%;
-    max-width: 20%;
+    height:90%;
+    max-width: 100%;
+    padding:10%;
+  }
+
+  #caption{
+    font-family: $sec-font;
+  }
+
+  #project__links{
+    display: flex;
+    font-family: $prm-font;
+    justify-content: space-evenly;
+  }
+
+  #project__links a{
+    color: white;
   }
 
   .projects__box h3 {
