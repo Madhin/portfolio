@@ -230,15 +230,15 @@ body:before {
 @media screen and (max-width: 420px) {
 
   body:before {
-    height: 2500px;
+    height: 2050px;
   }
 
 }
 
-@media screen and (max-width: 1440px) {
+@media only screen and (max-width: 1440px) and (min-width: 750px) {
 
   body:before {
-    height: 2500px;
+    height: 3170px;
   }
 
 }
