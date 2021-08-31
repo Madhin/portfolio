@@ -161,15 +161,6 @@
   font-size: 55%;
   font-family: "Poiret One", Arial, Helvetica, cursive;
 }
-#projects .project__links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-#projects .project__links p {
-  margin: 0 2%;
-  font-family: "Limelight", Arial, Helvetica, cursive;
-}
 #projects .container {
   display: flex;
   justify-content: center;
@@ -186,6 +177,12 @@
 }
 #projects #project__calc {
   width: 200px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+#projects #project__morse {
+  width: 340px;
   height: 400px;
   margin: 0 auto;
   margin-top: 10px;
@@ -210,6 +207,10 @@
 }
 #projects #project__links a {
   color: white;
+}
+#projects #project__links a:hover {
+  cursor: pointer;
+  border: 6px double #fff;
 }
 #projects .projects__icons {
   margin-top: 3%;

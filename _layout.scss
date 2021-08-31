@@ -194,17 +194,6 @@
     font-family: $sec-font;
   }
 
-  .project__links{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .project__links p{
-    margin: 0 2%;
-    font-family: $prm-font;
-  }
-
   .container{
     display: flex;
     justify-content: center;
@@ -226,6 +215,13 @@
 
   #project__calc{
     width:200px;
+    height:400px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  #project__morse{
+    width:340px;
     height:400px;
     margin: 0 auto;
     margin-top: 10px;
@@ -256,6 +252,11 @@
 
   #project__links a{
     color: white;
+  }
+
+  #project__links a:hover{
+    cursor: pointer;
+    border: 6px double $prm-font-color;
   }
 
   .projects__icons {
