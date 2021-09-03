@@ -218,7 +218,7 @@ body:before {
   -webkit-box-shadow: 0 0 10px rgba(85, 85, 85, 0.5);
   box-shadow: 0 0 10px rgba(85, 85, 85, 0.5);
   content: "";
-  height:3500px;
+  height:4400px;
   left: -300px;
   padding: 2px;
   position: absolute;
@@ -230,7 +230,7 @@ body:before {
 @media screen and (max-width: 420px) {
 
   body:before {
-    height: 2300px;
+    height: 2600px;
   }
 
 }
@@ -238,7 +238,7 @@ body:before {
 @media only screen and (max-width: 1440px) and (min-width: 750px) {
 
   body:before {
-    height: 3170px;
+    height: 2900px;
   }
 
 }

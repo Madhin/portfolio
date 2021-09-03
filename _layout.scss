@@ -109,8 +109,8 @@
 
   .about__desc p {
     border: 6px double white;
-    width: 45vw;
     padding: 15px;
+    width: 60vw;
   }
 
   .about__skills {
@@ -281,7 +281,8 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
-    width: 50vw;
+    width: 70vw;
+    font-size: 1.5em;
   }
 
   .contact__links{
@@ -326,13 +327,14 @@
     }
 
     .about__desc p {
-      width: 70vw;
+      font-size: 1.5em;
     }
 
     .about__icons p {
   
       width: 20vw;
    }
+
 
 }
 

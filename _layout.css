@@ -92,8 +92,8 @@
 }
 #about .about__desc p {
   border: 6px double white;
-  width: 45vw;
   padding: 15px;
+  width: 60vw;
 }
 #about .about__skills {
   text-decoration: underline;
@@ -232,7 +232,8 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 5%;
-  width: 50vw;
+  width: 70vw;
+  font-size: 1.5em;
 }
 #contact .contact__links {
   color: white;
@@ -271,7 +272,7 @@
   }
 
   .about__desc p {
-    width: 70vw;
+    font-size: 1.5em;
   }
 
   .about__icons p {
