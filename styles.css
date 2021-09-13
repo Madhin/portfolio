@@ -212,7 +212,7 @@ body:before {
   -webkit-box-shadow: 0 0 10px rgba(85, 85, 85, 0.5);
   box-shadow: 0 0 10px rgba(85, 85, 85, 0.5);
   content: "";
-  height: 4400px;
+  height: 350%;
   left: -300px;
   padding: 2px;
   position: absolute;
@@ -223,12 +223,12 @@ body:before {
 
 @media screen and (max-width: 420px) {
   body:before {
-    height: 2600px;
+    height: 2650px;
   }
 }
 @media only screen and (max-width: 1440px) and (min-width: 750px) {
   body:before {
-    height: 2900px;
+    height: 3200px;
   }
 }
 * {
@@ -382,7 +382,7 @@ body:before {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 570px;
+  height: 615px;
 }
 #projects .carousel {
   height: 100%;
@@ -462,7 +462,7 @@ body:before {
 #contact .contact__icons {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 5%;
+  margin-top: 10%;
   width: 70vw;
   font-size: 1.5em;
 }
